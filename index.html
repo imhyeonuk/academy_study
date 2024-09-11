@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>스터디 그룹: CodeStorm</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <h1>CodeStorm 스터디</h1>
+            <ul>
+                <li><a href="#about">스터디 소개</a></li>
+                <li><a href="#schedule">일정</a></li>
+                <li><a href="#members">팀원 소개</a></li>
+                <li><a href="#contact">문의</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="about">
+        <h2>스터디 소개</h2>
+        <p>CodeStorm은 코딩 테스트, 알고리즘, 해커톤을 준비하는 팀을 위한 스터디 그룹입니다.</p>
+    </section>
+
+    <section id="schedule">
+        <h2>일정</h2>
+        <ul id="study-schedule">
+            <li>1주차: 알고리즘 기초 학습</li>
+            <li>2주차: 코딩 테스트 실습</li>
+            <li>3주차: 해커톤 프로젝트 준비</li>
+        </ul>
+    </section>
+
+    <section id="members">
+        <h2>팀원 소개</h2>
+        <div class="member-card">
+            <h3>홍길동</h3>
+            <p>리더 / 코딩 테스트 전문가</p>
+        </div>
+        <div class="member-card">
+            <h3>김영희</h3>
+            <p>알고리즘 마스터</p>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>문의하기</h2>
+        <form id="contact-form">
+            <label for="name">이름:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="message">문의 내용:</label>
+            <textarea id="message" name="message" required></textarea>
+            
+            <button type="submit">문의 보내기</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 CodeStorm 스터디</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
